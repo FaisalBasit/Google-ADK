@@ -1,39 +1,26 @@
 # Google Agent Development Kit (ADK) Practice
 
-This project contains a series of examples demonstrating the core concepts of the **Google Agent Development Kit (ADK)**, an open-source framework for building multi-agent systems.
+A practical learning repository demonstrating core concepts of the Google Agent Development Kit (ADK) for building AI agents and multi-agent workflows.
 
-## Getting Started
+## Concepts Covered
 
-1. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+- Basic AI agents
+- Python tools
+- Sequential agent handoffs
+- Structured output with Pydantic
+- Triage and routing agents
+- Guardrails and callbacks
+- Session state and memory
+- External model integration through LiteLLM
 
-2. **Setup Environment**:
-   Copy `.env` and add your `GOOGLE_API_KEY`.
+## Technology
 
-3. **Run Examples**:
-   Execute the scripts in order to learn the pillars of ADK.
+Python, Google ADK, Pydantic, and LiteLLM.
 
-## Project Structure
+## Run
 
-| File | Description | Pillar |
-|------|-------------|--------|
-| `1_agent.py` | Basic Hello World agent setup | BUILD |
-| `2_tools.py` | Defining and using Python functions as tools | BUILD |
-| `3_handoffs.py` | Sequential multi-agent handoffs | INTERACT |
-| `4_structured_output.py`| Using Pydantic for structured JSON responses | BUILD |
-| `5_triage_agent.py` | Workflow patterns and triage logic | INTERACT |
-| `6_guardrails.py` | Lifecycle hooks and callbacks | EVALUATE |
-| `7_session_state.py` | Session management and stateful memory | INTERACT |
-| `groq_setup.py` | Model flexibility (External LLMs via LiteLLM) | DEPLOY |
+Install requirements, configure the Google API key, and launch the ADK development UI with `adk web`.
 
-## Launching the Dev UI
+## Author
 
-To test and debug your agents interactively in the browser:
-```bash
-adk web
-```
-
----
-*Created for Google ADK Seminar*
+Muhammad Faisal — AI Engineer
